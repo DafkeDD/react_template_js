@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-red-800">
-        Hello world!
-      </h1>
-    </>
+    <div className='bg-transparant h-screen flex justify-center items-center'>
+      <div className='bg-slate-800 h-32 w-32 rounded-md text-white flex justify-center items-center'>
+        <h1>zomaar</h1>
+      </div>
+    </div>
   )
 }
 
